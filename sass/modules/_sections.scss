@@ -1,0 +1,105 @@
+/*section*/
+section{
+  padding: 100px 0;
+  h1,h2,h3,h4,h5{
+      // font-family: 'Exo 2', sans-serif !important;
+  }
+}
+.section-showcase{
+  padding-top: 0px !important;
+  margin-top: 80px;
+  min-height: 300px;
+  background: url($showcase-image) no-repeat top center;
+  background-size: cover !important;
+  -moz-background-size: cover !important;
+  -webkit-background-size: cover !important;
+  .showcase-content{
+    padding: 80px 15px;
+    text-align: left;
+  }
+
+
+}
+
+.border{
+    @include add-border(4px, $primary-color, bottom);
+}
+.border-i{
+    @include add-border(4px, $light-color, bottom);
+}
+.section-primary{
+  @include add-background($primary-color);
+  h1{
+    padding-bottom: 50px !important;
+  }
+}
+.section-light{
+  @include add-background($light-color);
+  // background: url(../img/hex.png) repeat ;
+  img.device{
+    width: 500px !important;
+  }
+  .test{
+    padding: 20px 15px !important;
+    .testimonial{
+      ul{
+        padding: 0px !important;
+        li{
+          img{
+            padding: 5px 20px 5px 0px;
+          }
+        }
+      }
+    }
+    .row{
+      .total_winners_scroller{
+        table{
+          width: 100%;
+        }
+      }
+    }
+    .total_winners, .total_winners_mobile {
+      width: 100%;
+      margin-bottom: 20px;
+      font-family: 'Exo 2', sans-serif !important;
+      font-size: 26px;
+      b{
+        color: $primary-color;
+
+      }
+    }
+  }
+
+
+}
+.section-secondary{
+  @include add-background($secondary-color);
+}
+.section-dark{
+  padding: 30px 0 !important;
+  @include add-background($light-color);
+
+  h2{
+    font-weight: 900;
+    font-size: 2.5em;
+    padding: 10px 0;
+  }
+  .info{
+        margin-bottom: -20px;
+        padding-top: 30px;
+  }
+}
+
+.section-gry{
+  @include add-background($gry-color);
+
+  h2{
+    font-weight: 900;
+    font-size: 2.5em;
+    padding: 10px 0;
+  }
+  .info{
+        margin-bottom: -20px;
+        padding-top: 30px;
+  }
+}

@@ -1,0 +1,37 @@
+/*Nav Bar*/
+.navbar{
+  height: 80px;
+  background: $primary-color;
+  // box-shadow: 1px 1px 2px #e6e6e6;
+  .navbar-brand{
+    font-weight: 900;
+    color: $secondary-color;
+    font-size: 1.9em;
+    span{
+      color: $light-color;
+    }
+  }
+  .navbar-nav {
+    .active a{
+      color: $light-color !important;
+    }
+    .nav-item{
+      a:hover{
+        color: $light-color;
+      }
+      a:active{
+        color: $light-color;
+      }
+      .nav-link{
+        text-transform: uppercase;
+        font-weight: 500;
+        color: $link-color;
+        font-size: .9em;
+        letter-spacing: .15em;
+        padding: 0px 1rem;
+      }
+    }
+  }
+}
+
+

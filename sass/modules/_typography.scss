@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i');
+
+html,body,h1,h2,h3,h4,a,p,li,span{
+  font-family: 'Roboto', sans-serif;
+
+}
+
+
+.showcase-content{
+  padding: 50px 15px;
+  text-align: left;
+  h1{
+    color: $black-light;
+    font-size: 1.7rem !important;
+    font-weight: 300;
+    span{
+      font-weight: 900;
+      color: $secondary-color;
+      span{
+        color: $primary-color;
+      }
+    }
+  }
+  ul.heder-list{
+    padding-top: 20px;
+    li{
+      font-size: 1.2em;
+      font-weight: 300;
+      padding: 15px 0;
+      i.fa{
+        color: $primary-color;
+        padding-right: 10px;
+      }
+    }
+  }
+  p{
+    font-size: 1.25em;
+    font-weight: 100;
+  }
+}
+
+
+
+h1{
+  color: $black-light;
+  font-size: 1.7rem !important;
+  font-weight: 300;
+  span{
+    font-weight: 900;
+    color: $secondary-color;
+    span{
+      color: $primary-color;
+    }
+  }
+}
+
+
+.section-light{
+  p{
+    color: $black-light;
+    font-size: 1.1em;
+    font-weight: 300;
+  }
+  p.ita{
+    font-size: 1.3em;
+    font-style: italic;
+    padding: 20px 0px 0px 20px;
+  }
+}
+
+.section-gry{
+  h1{
+    color: $black-light;
+    font-size: 1.7rem !important;
+    font-weight: 300;
+    span{
+      font-weight: 900;
+      color: $secondary-color;
+      span{
+        color: $primary-color;
+      }
+    }
+  }
+  p{
+    color: $black-light;
+    font-size: 1.1em;
+    font-weight: 300;
+  }
+  p.ben{
+    font-size: 1.3em;
+    // font-style: italic;
+    padding: 20px 0px 0px 20px;
+  }
+
+  ul.benefits{
+    font-size: 1.1em;
+    padding-top: 20px;
+    li{
+      font-size: 1em;
+      font-weight: 300;
+      padding: 10px 0;
+      i.fa{
+        color: $primary-color;
+        padding-right: 10px;
+        font-size: 1.5em;
+      }
+    }
+  }
+
+}

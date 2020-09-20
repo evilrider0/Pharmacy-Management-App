@@ -1,0 +1,40 @@
+/*
+* Aurora Bootstrap SASS Theme
+* Author: Manishankar Vakta
+* Version: 0.0.1
+*/
+
+
+/* Base styles: _base, _variable, _mixins etc */
+@import "base/_variables.scss";
+@import "base/_mixins.scss";
+@import "base/_normalize.scss";
+@import "base/_base.scss";
+
+
+
+
+/*
+MODULES :
+*/
+
+@import "modules/_blocks.scss";
+@import "modules/_buttons.scss";
+@import "modules/_components.scss";
+@import "modules/_forms.scss";
+@import "modules/_lists.scss";
+@import "modules/_sections.scss";
+@import "modules/_tables.scss";
+@import "modules/_typography.scss";
+
+
+/*
+Layout : header, footer, navbar
+*/
+
+@import "layout/_header.scss";
+@import "layout/_footer.scss";
+@import "layout/_nav.scss";
+@import "layout/_home.scss";
+@import "layout/_admin.scss";
+@import "layout/_login.scss";

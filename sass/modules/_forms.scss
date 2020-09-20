@@ -1,0 +1,73 @@
+// Reg forms
+
+form.reg-form{
+  padding-top: 25px;
+  .form-group{
+    margin-bottom: 2rem;
+    .form-control{
+      border-radius: 0px;
+      padding:0.75rem;
+      border-color: #11111;
+
+    }
+    .form-control::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+      font-size: .9em;
+      font-weight: 300;
+      color: $secondary-color;
+      font-family: $base-font-family;
+    }
+    .form-control::-moz-placeholder { /* Firefox 19+ */
+      font-size: .9em;
+      font-weight: 300;
+      color: $secondary-color;
+      font-family: $base-font-family;
+    }
+    .form-control:-ms-input-placeholder { /* IE 10+ */
+      font-size: .9em;
+      font-weight: 300;
+      color: $secondary-color;
+      font-family: $base-font-family;
+    }
+    .form-control:-moz-placeholder { /* Firefox 18- */
+      font-size: .9em;
+      font-weight: 300;
+      color: $secondary-color;
+      font-family: $base-font-family;
+    }
+  }
+
+}
+
+
+.form-control{
+  border-radius: 0px;
+  font-weight: 300;
+  color: $secondary-color;
+  font-family: $base-font-family;
+
+}
+
+.form-control::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  font-size: .9em;
+  font-weight: 300;
+  color: $secondary-color;
+  font-family: $base-font-family;
+}
+.form-control::-moz-placeholder { /* Firefox 19+ */
+  font-size: .9em;
+  font-weight: 300;
+  color: $secondary-color;
+  font-family: $base-font-family;
+}
+.form-control:-ms-input-placeholder { /* IE 10+ */
+  font-size: .9em;
+  font-weight: 300;
+  color: $secondary-color;
+  font-family: $base-font-family;
+}
+.form-control:-moz-placeholder { /* Firefox 18- */
+  font-size: .9em;
+  font-weight: 300;
+  color: $secondary-color;
+  font-family: $base-font-family;
+}

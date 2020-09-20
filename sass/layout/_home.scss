@@ -1,0 +1,140 @@
+// HOME PAGE STYLE
+a{
+	color: $primary-color;
+}
+.sign-button{
+	li{
+		padding: 0 10px;
+		a.btn-sign{
+			// padding: 10px auto; 
+			border-radius: 25px;
+			border-color: $secondary-color;
+			color: $secondary-color;
+			font-size: .9em;
+		}
+		a.btn-sign:hover{
+			background: $secondary-color;
+			color: $light-color;
+		}
+	}
+}
+
+.navbar.home-nav{
+	background: $light-color;
+	border-bottom: 1px solid #fff;
+	ul.navbar-nav{
+		li.nav-item{
+			a.nav-link{
+				color: $black-light;
+			}
+			a.nav-link:hover{
+				color: $secondary-color;
+			}
+		}
+	}
+}/* .navbar */
+
+
+
+.jumbotron{
+	padding-top: 12em;
+    margin-bottom: 2rem;
+    background-color: #eceeef;
+    border-radius: 0rem;
+	// background-color: transparent;
+	background: linear-gradient(to bottom, rgba($primary-color, 0.9) 0%, rgba($secondary-color, 0.9) 100%), url('../img/onlinePharma.jpg') no-repeat center center fixed;
+	background-repeat: none;
+	background-size: cover;
+	margin-top: -100px;
+	color: #fff;
+	h1.display-4{
+		color: #fff;
+		font-size: 3em !important;
+	}
+	p.lead{
+		font-size: 1.1em;
+		font-weight: 400;
+		margin-bottom: 5px;
+	}
+	.btn-get-stard{
+		border-radius: 25px;
+		margin: 30px 0;
+		font-size: 1em;
+		width: 400px;
+	}
+}
+
+.home{
+	padding-bottom: 80px;
+	padding-top: 80px;
+	h2{
+		margin-bottom: 50px;
+	}
+	p.s_img{
+		background: #f1f1f1;
+		border-radius: 50%;
+		width: 200px;
+		height: 200px;
+		margin: 20px auto;
+		border-radius: 50%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		// margin:20px;
+		img{
+			padding:2em;
+
+		}
+	}
+	h4{
+		font-weight: 400;
+		font-size: 1.5em;
+		margin: 10px;
+	}
+	p.text-center{
+		font-size: 1em;
+		font-weight: 400;
+		color:#999;
+		// margin: 10px 0;
+	}
+}
+
+
+.product{
+	// img
+	.card{
+		box-shadow: 1px 1px 5px rgba(0,0,0,.3);
+		.card-img-top{
+			height: 250px;
+			border-bottom: 1px solid #f1f1f1;
+		}
+		.card-title{
+			padding: 20px 20px 10px 20px;
+			font-weight: 500;
+			font-size: 1.1em;
+		}
+		.card-text{
+			padding: 0 20px;
+			font-weight: 700;
+			font-size: 1.1em;
+			color: $secondary-color;
+		}
+		.btn.btn-primary{
+
+		}
+	}
+}
+
+
+#footer{
+	padding: 0px !important;
+}
+
+
+
+
+// LOGIN
+
+.login-wrapper{
+	margin-top: 100px;
+}

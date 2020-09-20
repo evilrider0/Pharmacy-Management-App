@@ -1,0 +1,43 @@
+/*Mixins*/
+
+
+@mixin border-radious($radious)
+{
+  -moz-border-radious: $radious;
+  -webkit-border-radious: $radious;
+   border-radious: $radious;
+}
+
+@mixin add-border($size, $color, $position)
+{
+  @if $position=='all'{
+      border:$size solid $color;
+    }@else if $position == 'top'{
+      border-top:$size solid $color;
+    }@else if $position == 'bottom'{
+      border-bottom:$size solid $color;
+    }@else if $position == 'right'{
+      border-right:$size solid $color;
+    }@else if $position == 'left'{
+      border-left:$size solid $color;
+    }@else if $position == 'top-bottom'{
+      border-top:$size solid $color;
+      border-bottom:$size solid $color;
+    }@else if $position == 'right-left'{
+      border-right:$size solid $color;
+      border-left:$size solid $color;
+    }
+}
+
+
+@mixin add-background($color)
+{
+  background: $color;
+  @if $color == $light-color{
+    color: $primary-color;
+  }@elseif $color == $gry-color{
+      color: $black-light;
+  }@else{
+    color:$light-color;
+  }
+}

@@ -1,0 +1,171 @@
+// Admin
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600');
+
+// Admin css
+
+body.admin{
+	.bg-inverse {
+	  background-color: $light-color !important;
+		box-shadow: 2px 3px 4px lighten($black-light, 60);
+	  .navbar-brand .logo {
+	    height: 60px !important;
+		}
+		.navbar-nav{
+			.nav-item{
+				.nav-link {
+					color:$black-light !important;
+				}
+				.dropdown-toggle{
+					margin-top: 20px;
+				}
+				.dropdown-menu{
+					position: absolute;
+					top:157%;
+					right: 0px;
+					a.dropdown-item{
+						text-transform: uppercase;
+					}
+				}
+			}
+		}
+}
+
+.main-content-area{
+	margin-top: 90px;
+	.nav-wrap{
+		padding: 0px;
+		.nav-main{
+			#accordion{
+				.card{
+					position: relative;
+					background-color: #fff;
+					border: 1px solid rgba(0,0,0,0);
+					border-radius: .25rem;
+
+					.active{
+						h5{
+							a{
+								color: $secondary-color;
+							}
+						}
+					}
+
+					.card-header{
+						h5{
+							a{
+								font-size: .7em;
+							}
+							a:hover{
+								color: $black-light;
+								text-decoration: none;
+							}
+						}
+					}
+
+				 .card-block{
+						.dw-nav{
+							li{
+								border-bottom: 1px solid lighten($black-light, 60);
+								padding: 5px 0px;
+								a:hover{
+									color: $black-light;
+									text-decoration: none;
+								}
+								a{
+									font-size: .8em;
+								}
+							}
+							li.active{
+								a{
+									color: $black-light;
+								}
+							}
+						}
+
+				 }
+				}
+			}
+
+			.ul_copy{
+				li{
+					margin: 0 auto;
+				}
+			}
+		}
+	}
+
+	.admin-area{
+		.content-header{
+			margin-top: 20px;
+			border-bottom: 1px solid lighten($black-light, 60);
+			margin-bottom: 20px;
+			a{
+				float:right;
+			}
+			h2.content-title{
+				// text-align: center;
+				font-size: 1.5em;
+				color: $primary-color;
+				i.fa,i.la{
+					font-size: 1em;
+				}
+			}
+		}
+
+		.dashboard{
+			.card{
+				border-radius: 0px;
+				background: lighten($black-light, 70);
+				border: 1px solid lighten($black-light, 68);
+				box-shadow: 1px 2px 3px lighten($black-light, 60);
+				cursor: pointer;
+				.card-body{
+					padding: 10px;
+					border-radius: 0px;
+				}
+			a:hover{
+				box-shadow: 1px 3px 5px $black-light !important;
+			}
+
+
+			}
+
+			.dash{
+				.card-body{
+					color: lighten($black-light, 30) !important;
+					.card-title{
+						font-size: 2em;
+							color: $secondary-color;
+					}
+					.card-text{
+						color: lighten($black-light, 30) !important;
+						font-weight: 500;
+						.right{
+							float: right;
+							text-align: right;
+						}
+						b{
+							color: lighten($black-light, 30) !important;
+						}
+						.num{
+							color: $secondary-color;
+						}
+					}
+					.sub-title{
+						font-weight: 500;
+					}
+				}
+				.icon{
+					i.fa{
+						// color: lighten($black-light, 20) !important;
+						margin-top: 5vh;
+						font-size: 3.5em;
+						color: $secondary-color;
+					}
+				}
+			}
+		} //dashboard
+	} //admin-area
+} //main-content-area
+
+} //body.admin
