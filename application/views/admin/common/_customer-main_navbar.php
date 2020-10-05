@@ -154,7 +154,7 @@
   </div>
   <ul class="ul_copy">
     <li class="nav-item" style="list-style: none; padding-top: 50px;">
-      <small>&copy; 2018 auroratec</small>
+    <p class="text-center"><small>&copy; 2020 Pharamacy Management System</small></p>
     </li>
   </ul>
 </div>
