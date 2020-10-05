@@ -13,13 +13,32 @@ class Product_M extends MY_Model
                 'label' => 'product Name',
                 'rules' => 'trim|required'
         ),
-    'details' => array(
+      'details' => array(
                 'field' => 'details',
                 'label' => 'product Description',
                 'rules' => 'trim|required',
 
         ),
-      );
+        'brand' => array(
+            'field' => 'brand',
+            'label' => 'product Brand',
+            'rules' => 'trim|required',
+  
+          ),
+        'bp' => array(
+            'field' => 'bp',
+            'label' => 'product BP',
+            'rules' => 'trim|required',
+  
+          ),
+        
+        'type' => array(
+          'field' => 'type',
+          'label' => 'product Type',
+          'rules' => 'trim|required',
+
+        ),
+        );
 
 
   function __construct()

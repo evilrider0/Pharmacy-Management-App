@@ -188,7 +188,7 @@ public function product_ajax(){
     $product .= '</td><td>';
     $product .= '<input type="number" name="p_price[]" class="form-control p_price p_price_'.$p->id.'" value="'.$p->price.'" disabled>';
     $product .= '</td><td>';
-    $product .= '<input type="number" name="p_unit[]" class="form-control p_unit p_unit_'.$p->id.'" onclick="unitByPrice('.$p->id.')" value="1">';
+    $product .= '<input type="number" name="p_unit[]" class="form-control p_unit p_unit_'.$p->id.'" onchange="unitByPrice('.$p->id.')" value="1">';
     $product .= '</td><td>';
     $product .= '<input type="text" name="p_sub_total[]" class="form-control p_sub_total p_sub_total_'.$p->id.'" value="'.$p->price.'">';
     $product .= '</td></tr>';
